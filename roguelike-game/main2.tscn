@@ -1,4 +1,4 @@
-[gd_scene load_steps=41 format=4 uid="uid://b4xwac7b87q7l"]
+
 
 [ext_resource type="Script" path="res://character_body_2d.gd" id="1_dacrv"]
 [ext_resource type="Texture2D" uid="uid://dc1jdhnnhmo07" path="res://FreeKnight_v1/Colour2/Outline/120x80_PNGSheets/_Attack2.png" id="2_mhlit"]
@@ -33,7 +33,7 @@
 [ext_resource type="Texture2D" uid="uid://b8kv5sunx70r1" path="res://FreeKnight_v1/Colour2/Outline/120x80_PNGSheets/_WallSlide.png" id="31_anrbw"]
 [ext_resource type="Texture2D" uid="uid://dbt3x6j7iwoqb" path="res://gtiles.png" id="32_nfwfs"]
 [ext_resource type="Texture2D" uid="uid://238lukyxbeh6" path="res://tile2.png" id="33_lhfx2"]
-[ext_resource type="Texture2D" uid="uid://da20iceprblxf" path="res://Floor2.jpg" id="34_bxn5u"]
+
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_whnp6"]
 
@@ -4477,7 +4477,7 @@ sources/0 = SubResource("TileSetAtlasSource_ok6jj")
 sources/1 = SubResource("TileSetAtlasSource_facbu")
 sources/2 = SubResource("TileSetAtlasSource_b1qrp")
 
-[node name="Node2D2" type="Node2D"]
+
 position = Vector2(454, 321)
 
 [node name="CharacterBody2D" type="CharacterBody2D" parent="."]
