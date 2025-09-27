@@ -1,5 +1,9 @@
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 [gd_scene load_steps=40 format=4 uid="uid://uweoccsoxf4y"]
+=======
+[gd_scene load_steps=40 format=4 uid="uid://bdo0smpmhh8xt"]
+>>>>>>> Stashed changes
 =======
 [gd_scene load_steps=40 format=4 uid="uid://bdo0smpmhh8xt"]
 >>>>>>> Stashed changes
@@ -37,7 +41,11 @@
 [ext_resource type="Texture2D" uid="uid://dbt3x6j7iwoqb" path="res://gtiles.png" id="31_wqmsq"]
 [ext_resource type="Texture2D" uid="uid://238lukyxbeh6" path="res://tile2.png" id="32_fkgk1"]
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 [ext_resource type="Texture2D" uid="uid://t7u6soxbxcs1" path="res://Floor2.jpg" id="33_qgxp6"]
+=======
+[ext_resource type="Texture2D" path="res://Floor2.jpg" id="33_qgxp6"]
+>>>>>>> Stashed changes
 =======
 [ext_resource type="Texture2D" path="res://Floor2.jpg" id="33_qgxp6"]
 >>>>>>> Stashed changes
