@@ -1,15 +1,14 @@
 [gd_scene load_steps=5 format=3 uid="uid://dgvb7ewjvhb4q"]
 
 [ext_resource type="Texture2D" uid="uid://co0jas705lln2" path="res://bg.png" id="1_afcts"]
-[ext_resource type="Script" path="res://start.gd" id="1_apid2"]
 [ext_resource type="Shader" path="res://scroll.gdshader" id="1_i0tmg"]
+[ext_resource type="Script" path="res://menuquit.gd" id="1_mgbd6"]
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_xv4ij"]
 shader = ExtResource("1_i0tmg")
 
 [node name="Node2D" type="Node2D"]
-script = ExtResource("1_apid2")
-metadata/_edit_vertical_guides_ = [-3951.0]
+script = ExtResource("1_mgbd6")
 
 [node name="Camera2D" type="Camera2D" parent="."]
 
@@ -34,13 +33,5 @@ offset_right = 136.0
 offset_bottom = 169.0
 text = "Quit"
 
-[node name="start" type="Button" parent="."]
-offset_left = -142.0
-offset_top = -259.0
-offset_right = 136.0
-offset_bottom = -76.0
-text = "Start"
-
 [connection signal="pressed" from="quit" to="." method="_on_quit_pressed"]
 [connection signal="pressed" from="quit" to="quit" method="_on_pressed"]
-[connection signal="pressed" from="start" to="." method="_on_start_pressed"]
