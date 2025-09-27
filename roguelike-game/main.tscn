@@ -1,0 +1,230 @@
+[gd_scene load_steps=33 format=3 uid="uid://d4bw8b4ovvsbq"]
+
+[ext_resource type="Texture2D" uid="uid://dc1jdhnnhmo07" path="res://FreeKnight_v1/Colour2/Outline/120x80_PNGSheets/_Attack2.png" id="1_kq58d"]
+[ext_resource type="Texture2D" uid="uid://dutoydd3le8wb" path="res://FreeKnight_v1/Colour2/Outline/120x80_PNGSheets/_AttackCombo.png" id="2_seu75"]
+[ext_resource type="Texture2D" uid="uid://j7w777fplbih" path="res://FreeKnight_v1/Colour2/Outline/120x80_PNGSheets/_Crouch.png" id="3_htxhm"]
+[ext_resource type="Texture2D" uid="uid://tvonalptnthk" path="res://FreeKnight_v1/Colour2/Outline/120x80_PNGSheets/_Attack2NoMovement.png" id="4_jq2sk"]
+[ext_resource type="Texture2D" uid="uid://bbp1gnfdw4678" path="res://FreeKnight_v1/Colour2/Outline/120x80_PNGSheets/_Attack.png" id="5_4k2k6"]
+[ext_resource type="Texture2D" uid="uid://dmnagbp6qbyj2" path="res://FreeKnight_v1/Colour2/Outline/120x80_PNGSheets/_AttackComboNoMovement.png" id="6_0rl1p"]
+[ext_resource type="Texture2D" uid="uid://dsnxi0q0e2k7v" path="res://FreeKnight_v1/Colour2/Outline/120x80_PNGSheets/_AttackNoMovement.png" id="7_ok6jj"]
+[ext_resource type="Texture2D" uid="uid://cl7fyluvg8ms5" path="res://FreeKnight_v1/Colour2/Outline/120x80_PNGSheets/_CrouchAll.png" id="8_facbu"]
+[ext_resource type="Texture2D" uid="uid://dxwjef2gtdry1" path="res://FreeKnight_v1/Colour2/Outline/120x80_PNGSheets/_CrouchAttack.png" id="9_b1qrp"]
+[ext_resource type="Texture2D" uid="uid://h4de23yua511" path="res://FreeKnight_v1/Colour2/Outline/120x80_PNGSheets/_CrouchTransition.png" id="10_come4"]
+[ext_resource type="Texture2D" uid="uid://bmtplg2ekn4ju" path="res://FreeKnight_v1/Colour2/Outline/120x80_PNGSheets/_CrouchWalk.png" id="11_h8e4i"]
+[ext_resource type="Texture2D" uid="uid://chjj83m12edie" path="res://FreeKnight_v1/Colour2/Outline/120x80_PNGSheets/_Dash.png" id="12_4lmeg"]
+[ext_resource type="Texture2D" uid="uid://dsst8nwsicibf" path="res://FreeKnight_v1/Colour2/Outline/120x80_PNGSheets/_Death.png" id="13_0cp0l"]
+[ext_resource type="Texture2D" uid="uid://bq8rxmbto5qsj" path="res://FreeKnight_v1/Colour2/Outline/120x80_PNGSheets/_DeathNoMovement.png" id="14_d2t1y"]
+[ext_resource type="Texture2D" uid="uid://bqvgv6qccrha7" path="res://FreeKnight_v1/Colour2/Outline/120x80_PNGSheets/_Fall.png" id="15_gngh3"]
+[ext_resource type="Texture2D" uid="uid://d3mro6eoc8lod" path="res://FreeKnight_v1/Colour2/Outline/120x80_PNGSheets/_Hit.png" id="16_0n3wm"]
+[ext_resource type="Texture2D" uid="uid://bm5gey0akgp7n" path="res://FreeKnight_v1/Colour2/Outline/120x80_PNGSheets/_Idle.png" id="17_qnost"]
+[ext_resource type="Texture2D" uid="uid://biq31grngeip3" path="res://FreeKnight_v1/Colour2/Outline/120x80_PNGSheets/_Jump.png" id="18_wnkbs"]
+[ext_resource type="Texture2D" uid="uid://bbaki5gr226yr" path="res://FreeKnight_v1/Colour2/Outline/120x80_PNGSheets/_JumpFallInbetween.png" id="19_f6a44"]
+[ext_resource type="Texture2D" uid="uid://bfk8rkl016jy1" path="res://FreeKnight_v1/Colour2/Outline/120x80_PNGSheets/_Roll.png" id="20_0cbny"]
+[ext_resource type="Texture2D" uid="uid://mhseaw47cmxp" path="res://FreeKnight_v1/Colour2/Outline/120x80_PNGSheets/_Run.png" id="21_hrvbo"]
+[ext_resource type="Texture2D" uid="uid://ck3exfqo7445v" path="res://FreeKnight_v1/Colour2/Outline/120x80_PNGSheets/_Slide.png" id="22_uypp3"]
+[ext_resource type="Texture2D" uid="uid://m01ftev2lwd0" path="res://FreeKnight_v1/Colour2/Outline/120x80_PNGSheets/_SlideAll.png" id="23_blkrb"]
+[ext_resource type="Texture2D" uid="uid://bvfdyd2lsh5de" path="res://FreeKnight_v1/Colour2/Outline/120x80_PNGSheets/_SlideTransitionEnd.png" id="24_abqjc"]
+[ext_resource type="Texture2D" uid="uid://bq6v81tq64chu" path="res://FreeKnight_v1/Colour2/Outline/120x80_PNGSheets/_SlideTransitionStart.png" id="25_6iyjs"]
+[ext_resource type="Texture2D" uid="uid://55pq7338u41o" path="res://FreeKnight_v1/Colour2/Outline/120x80_PNGSheets/_TurnAround.png" id="26_4w656"]
+[ext_resource type="Texture2D" uid="uid://cbu68p4k3f1ns" path="res://FreeKnight_v1/Colour2/Outline/120x80_PNGSheets/_WallClimb.png" id="27_e71vb"]
+[ext_resource type="Texture2D" uid="uid://b4qj0u84d186l" path="res://FreeKnight_v1/Colour2/Outline/120x80_PNGSheets/_WallClimbNoMovement.png" id="28_rnkwl"]
+[ext_resource type="Texture2D" uid="uid://cqo6h3wr4lgnr" path="res://FreeKnight_v1/Colour2/Outline/120x80_PNGSheets/_WallHang.png" id="29_vke2r"]
+[ext_resource type="Texture2D" uid="uid://b8kv5sunx70r1" path="res://FreeKnight_v1/Colour2/Outline/120x80_PNGSheets/_WallSlide.png" id="30_uit24"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_whnp6"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_22e24"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_kq58d")
+}],
+"loop": true,
+"name": &"attack2",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_seu75")
+}],
+"loop": true,
+"name": &"attackCombo",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("3_htxhm")
+}],
+"loop": true,
+"name": &"crouch",
+"speed": 5.0
+}, {
+"frames": [],
+"loop": true,
+"name": &"dash",
+"speed": 5.0
+}, {
+"frames": [],
+"loop": true,
+"name": &"death",
+"speed": 5.0
+}, {
+"frames": [],
+"loop": true,
+"name": &"fall",
+"speed": 5.0
+}, {
+"frames": [],
+"loop": true,
+"name": &"hit",
+"speed": 5.0
+}, {
+"frames": [],
+"loop": true,
+"name": &"idle",
+"speed": 5.0
+}, {
+"frames": [],
+"loop": true,
+"name": &"jump",
+"speed": 5.0
+}, {
+"frames": [],
+"loop": true,
+"name": &"roll",
+"speed": 5.0
+}, {
+"frames": [],
+"loop": true,
+"name": &"run",
+"speed": 5.0
+}, {
+"frames": [],
+"loop": true,
+"name": &"slide",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_kq58d")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_jq2sk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_4k2k6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_seu75")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_0rl1p")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_ok6jj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_htxhm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_facbu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_b1qrp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_come4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_h8e4i")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_4lmeg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_0cp0l")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_d2t1y")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_gngh3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_0n3wm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_qnost")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_wnkbs")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_f6a44")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_0cbny")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_hrvbo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_uypp3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_blkrb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_abqjc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_6iyjs")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_4w656")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_e71vb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_rnkwl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29_vke2r")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30_uit24")
+}],
+"loop": true,
+"name": &"storage(dont use)",
+"speed": 5.0
+}, {
+"frames": [],
+"loop": true,
+"name": &"turnAround",
+"speed": 5.0
+}, {
+"frames": [],
+"loop": true,
+"name": &"wallClimb",
+"speed": 5.0
+}, {
+"frames": [],
+"loop": true,
+"name": &"wallSlide",
+"speed": 5.0
+}]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="CharacterBody2D" type="CharacterBody2D" parent="."]
+
+[node name="Sprite2D" type="Sprite2D" parent="CharacterBody2D"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="CharacterBody2D"]
+position = Vector2(36, 636)
+shape = SubResource("RectangleShape2D_whnp6")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="CharacterBody2D"]
+sprite_frames = SubResource("SpriteFrames_22e24")
+animation = &"crouch"
