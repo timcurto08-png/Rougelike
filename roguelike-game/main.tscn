@@ -1,5 +1,6 @@
-[gd_scene load_steps=40 format=4 uid="uid://d4bw8b4ovvsbq"]
+[gd_scene load_steps=41 format=4 uid="uid://d4bw8b4ovvsbq"]
 
+[ext_resource type="Script" uid="uid://yg2bqtkhlcq3" path="res://character_body_2d.gd" id="1_4k2k6"]
 [ext_resource type="Texture2D" uid="uid://dc1jdhnnhmo07" path="res://FreeKnight_v1/Colour2/Outline/120x80_PNGSheets/_Attack2.png" id="1_kq58d"]
 [ext_resource type="Texture2D" uid="uid://dutoydd3le8wb" path="res://FreeKnight_v1/Colour2/Outline/120x80_PNGSheets/_AttackCombo.png" id="2_seu75"]
 [ext_resource type="Texture2D" uid="uid://j7w777fplbih" path="res://FreeKnight_v1/Colour2/Outline/120x80_PNGSheets/_Crouch.png" id="3_htxhm"]
@@ -4479,6 +4480,7 @@ sources/2 = SubResource("TileSetAtlasSource_b1qrp")
 [node name="Node2D" type="Node2D"]
 
 [node name="CharacterBody2D" type="CharacterBody2D" parent="."]
+script = ExtResource("1_4k2k6")
 
 [node name="Sprite2D" type="Sprite2D" parent="CharacterBody2D"]
 
