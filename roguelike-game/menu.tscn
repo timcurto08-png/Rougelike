@@ -9,6 +9,7 @@ shader = ExtResource("1_i0tmg")
 
 [node name="Node2D" type="Node2D"]
 script = ExtResource("1_mgbd6")
+metadata/_edit_vertical_guides_ = [-3951.0]
 
 [node name="Camera2D" type="Camera2D" parent="."]
 
@@ -32,6 +33,13 @@ offset_top = -13.0
 offset_right = 136.0
 offset_bottom = 169.0
 text = "Quit"
+
+[node name="start" type="Button" parent="."]
+offset_left = -142.0
+offset_top = -259.0
+offset_right = 136.0
+offset_bottom = -76.0
+text = "Start"
 
 [connection signal="pressed" from="quit" to="." method="_on_quit_pressed"]
 [connection signal="pressed" from="quit" to="quit" method="_on_pressed"]
