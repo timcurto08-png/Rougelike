@@ -1,6 +1,7 @@
 [gd_scene format=3 uid="uid://defhk2jjgjk0f"]
 
 [node name="main"]
+scale = Vector2(0.98649, 0.983075)
 
 [node name="StaticBody2D" parent="." index="1"]
 position = Vector2(260.335, 123.815)
